@@ -1,0 +1,22 @@
+export const brainRegions = [
+  { id: 'frontal', cn: '额叶', en: 'Frontal Lobe', loc: '大脑前部', func: '决策、计划、运动控制、语言表达、工作记忆、情绪调节', pos: [0.8, 0.5, 0], color: '#ff6b6b' },
+  { id: 'prefrontal', cn: '前额叶皮层', en: 'Prefrontal Cortex', loc: '额叶前部', func: '高级认知、决策、执行功能、个性、社会行为', pos: [1.2, 0.3, 0], color: '#ff8787' },
+  { id: 'motor', cn: '运动皮层', en: 'Motor Cortex', loc: '额叶后部', func: '自主运动、运动规划与执行', pos: [0.3, 0.8, 0], color: '#ffa07a' },
+  { id: 'broca', cn: '布洛卡区', en: "Broca's Area", loc: '左额叶下回', func: '语言产生、言语表达、语法处理', pos: [0.9, 0.2, -0.6], color: '#ff9999' },
+  { id: 'parietal', cn: '顶叶', en: 'Parietal Lobe', loc: '大脑顶部', func: '感觉整合、空间认知、注意力、数学能力', pos: [-0.2, 0.9, 0], color: '#4ecdc4' },
+  { id: 'somatosensory', cn: '体感皮层', en: 'Somatosensory Cortex', loc: '顶叶前部', func: '触觉、痛觉、温度觉、本体感觉处理', pos: [0, 1.0, 0], color: '#45b7d1' },
+  { id: 'temporal', cn: '颞叶', en: 'Temporal Lobe', loc: '大脑侧部', func: '听觉处理、记忆形成、语言理解、情绪', pos: [0.3, -0.3, -0.8], color: '#a8e6cf' },
+  { id: 'wernicke', cn: '韦尼克区', en: "Wernicke's Area", loc: '左颞叶上回', func: '语言理解、语义处理', pos: [0.1, 0.1, -0.9], color: '#c1ffc1' },
+  { id: 'hippocampus', cn: '海马体', en: 'Hippocampus', loc: '颞叶内侧', func: '长期记忆形成、空间记忆、情景记忆', pos: [0, -0.4, -0.5], color: '#98d8c8' },
+  { id: 'amygdala', cn: '杏仁核', en: 'Amygdala', loc: '颞叶前部内侧', func: '情绪处理、恐惧反应、情绪记忆', pos: [0.2, -0.5, -0.4], color: '#7fcdbb' },
+  { id: 'occipital', cn: '枕叶', en: 'Occipital Lobe', loc: '大脑后部', func: '视觉处理、颜色识别、运动检测', pos: [-1.0, 0.2, 0], color: '#fdae61' },
+  { id: 'visual', cn: '初级视觉皮层', en: 'Primary Visual Cortex (V1)', loc: '枕叶', func: '视觉信息初级处理、边缘检测', pos: [-1.2, 0, 0], color: '#fee08b' },
+  { id: 'cerebellum', cn: '小脑', en: 'Cerebellum', loc: '脑干后上方', func: '运动协调、平衡、姿势控制、运动学习', pos: [-0.5, -0.8, 0], color: '#d8b2d1' },
+  { id: 'brainstem', cn: '脑干', en: 'Brainstem', loc: '脑底部', func: '生命维持功能、呼吸、心跳、睡眠觉醒', pos: [0, -1.0, 0], color: '#c6a0c9' },
+  { id: 'thalamus', cn: '丘脑', en: 'Thalamus', loc: '大脑中央', func: '感觉中继站、注意力调节、意识', pos: [0, 0, 0], color: '#9b9bce' },
+  { id: 'hypothalamus', cn: '下丘脑', en: 'Hypothalamus', loc: '丘脑下方', func: '激素调节、体温调节、饥饿口渴、情绪', pos: [0, -0.3, 0.2], color: '#a8a8d9' },
+  { id: 'basal', cn: '基底神经节', en: 'Basal Ganglia', loc: '大脑深部', func: '运动控制、习惯形成、奖励学习', pos: [0.3, 0, 0.3], color: '#8884d8' },
+  { id: 'striatum', cn: '纹状体', en: 'Striatum', loc: '基底神经节', func: '动机、奖励、习惯、运动启动', pos: [0.4, -0.1, 0.4], color: '#9c9ce6' },
+  { id: 'corpus', cn: '胼胝体', en: 'Corpus Callosum', loc: '连接左右半球', func: '左右脑信息传递与整合', pos: [0, 0.2, 0], color: '#ffd700' },
+  { id: 'cingulate', cn: '扣带回', en: 'Cingulate Cortex', loc: '大脑内侧', func: '情绪调节、疼痛处理、决策、认知控制', pos: [0, 0.4, 0.3], color: '#ffb347' }
+];
